@@ -1,0 +1,85 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin  : 0;
+    padding : 0;
+    height  : 100vh;
+    
+    background: maroon;
+}
+
+.main{
+    height  : 100%;
+    width   : 100%;
+}
+
+
+.score{
+    width   : 25%;
+    height  : 15%;
+    float   : left; 
+}
+.score h4 {
+    margin       : 0;
+    padding      : 0;
+    color        : #FFF;
+    font-size    : 2.5em;
+    display      : inline-block;   
+    margin-left  : 25%;
+    margin-top   : 40px;
+}
+
+.score span {
+    color      : #FFF;
+    font-size  : 2.5em;
+}
+
+
+.bestScore{
+
+    width   : 25%;
+    height  : 15%;
+    float   : right;
+}
+.bestScore h4 {
+    margin       : 0;
+    padding      : 0;
+    color        : #FFF;
+    font-size    : 2.5em;
+    display      : inline-block;   
+    margin-top   : 40px;
+}
+
+.bestScore span {
+    color      : #FFF;
+    font-size  : 2.5em;
+}
+
+
+
+.timer{
+    display : inline-block;
+    width   : 50%;
+    height  : 15%;
+    text-align : center; 
+}
+
+.timer span{
+    font-size  : 4em;
+    color      : #FFF;
+    /* margin-top   : 40px; */
+
+}
+
+
+.game{
+    height     : 70%;
+    width      : 80%;
+    margin     : auto;
+    background : #f00;
+    border     : blue 5px solid; 
+}
+
