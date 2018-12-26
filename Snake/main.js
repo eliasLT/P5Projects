@@ -5,7 +5,7 @@ var canvasHeight = main.clientHeight * 0.7 - 10;
 
 var game;
 
-
+console.log('bonjour de la part de elias LTF1')
 
 
 function setup(){
